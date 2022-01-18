@@ -1,10 +1,10 @@
-package com.bugtracking.adminconsumer.dto;
+package com.bugtracking.admin.dto;
 
 import java.sql.Date;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 
-import com.bugtracking.adminconsumer.enums.bugstatus;
+import com.bugtracking.admin.enums.bugstatus;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

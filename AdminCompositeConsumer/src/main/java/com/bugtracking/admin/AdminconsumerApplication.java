@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer;
+package com.bugtracking.admin;
 
 import java.util.Collections;
 

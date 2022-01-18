@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer.responses;
+package com.bugtracking.admin.responses;
 
 import org.springframework.http.HttpStatus;
 

@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer.exceptions;
+package com.bugtracking.admin.exceptions;
 
 public class IdNotFoundException extends RuntimeException {
 	/**

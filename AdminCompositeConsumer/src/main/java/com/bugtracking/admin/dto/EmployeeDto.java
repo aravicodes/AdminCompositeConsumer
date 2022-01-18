@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer.dto;
+package com.bugtracking.admin.dto;
 
 public class EmployeeDto {
 	private long empId;

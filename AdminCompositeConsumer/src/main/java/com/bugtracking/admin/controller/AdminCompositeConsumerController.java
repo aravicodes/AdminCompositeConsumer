@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer.controller;
+package com.bugtracking.admin.controller;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,11 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.bugtracking.adminconsumer.dto.ProjectDto;
-import com.bugtracking.adminconsumer.dto.BugDto;
-import com.bugtracking.adminconsumer.dto.EmployeeDto;
-
-import com.bugtracking.adminconsumer.enums.bugstatus;
+import com.bugtracking.admin.dto.BugDto;
+import com.bugtracking.admin.dto.EmployeeDto;
+import com.bugtracking.admin.dto.ProjectDto;
+import com.bugtracking.admin.enums.bugstatus;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

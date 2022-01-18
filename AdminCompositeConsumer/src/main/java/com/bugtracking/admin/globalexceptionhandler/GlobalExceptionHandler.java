@@ -1,4 +1,4 @@
-package com.bugtracking.adminconsumer.globalexceptionhandler;
+package com.bugtracking.admin.globalexceptionhandler;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.bugtracking.adminconsumer.responses.Responseinfo;
+import com.bugtracking.admin.responses.Responseinfo;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
